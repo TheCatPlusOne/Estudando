@@ -27,7 +27,7 @@ public class CpfCollector {
 	}
 	
 	public static String temHifen(String cpf) {
-		String nHifens = "-";
+		String nHifens = "";
 		
 		for(int i = 0; i < cpf.length(); i++) {
 			if("-".equals(String.valueOf(cpf.charAt(i))))
